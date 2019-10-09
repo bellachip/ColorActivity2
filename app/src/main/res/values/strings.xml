@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">ColorActivity</string>
+    <string name = "title">Palette Activity</string>
+    <string name = "title2">Canvas Activity</string>
+    <string-array name="array1">
+<item>SELECT A COLOR</item>
+        <item>RED</item>
+        <item>YELLOW</item>
+        <item>GREEN</item>
+        <item>TEAL</item>
+        <item>CYAN</item>
+        <item>BLUE</item>
+        <item>MAGENTA</item>
+        <item>PURPLE</item>
+        <item>MAROON</item>
+        <item>BLACK</item>
+        <item>GRAY</item>
+
+        <!--<item>DARK GRAY</item>-->
+      <!---->
+        <!--<item>LIGHT GRAY</item>-->
+
+
+        <!--"Select a color", "Red", "Yellow", "Green", "Teal", "Cyan", "Blue",-->
+        <!--"Magenta", "Purple", "Maroon", "Black", "Gray"-->
+
+
+    </string-array>
+
+    <string-array name="array2">
+
+        <item>RED</item>
+        <item>YELLOW</item>
+        <item>BLUE</item>
+        <item>BLACK</item>
+        <item>WHITE</item>
+        <item>CYAN</item>
+        <item>DARK GRAY</item>
+        <item>GREEN</item>
+        <item>LIGHT GRAY</item>
+        <item>MAGENTA</item>
+    </string-array>
+
+</resources>
