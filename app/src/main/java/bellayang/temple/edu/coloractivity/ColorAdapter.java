@@ -4,6 +4,7 @@ import android.content.Context;
 import android.content.Intent;
 import android.content.res.Resources;
 import android.graphics.Color;
+import android.provider.CalendarContract;
 import android.support.constraint.ConstraintLayout;
 import android.view.View;
 import android.view.ViewGroup;
@@ -49,6 +50,11 @@ public class ColorAdapter extends BaseAdapter {
             textView = new TextView(context);
         } else {
             textView = (TextView) convertView;
+        }
+
+        if (position == 0) {
+            textView.setText("WHITE");
+
         }
         //set text color
         textView.setText(colors[position]);

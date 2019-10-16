@@ -17,7 +17,6 @@ public class CanvasActivity extends AppCompatActivity {
         //set title to Canvas Activity
         setTitle(R.string.title2);
 
-
         //get intent
         Intent intent = getIntent();
 
