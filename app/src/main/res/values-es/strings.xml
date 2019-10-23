@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--<string name="app_name">Lona Actividad</string>-->
+    <!--<string name = "palette">Paleta Actividad</string>-->
+    <!--<string name = "canvas">Lona Actividad</string>-->
+
+    <string-array name="eng_array">
+        <item>WHITE</item>
+        <item>RED</item>
+        <item>YELLOW</item>
+        <item>GREEN</item>
+        <item>TEAL</item>
+        <item>CYAN</item>
+        <item>BLUE</item>
+        <item>MAGENTA</item>
+        <item>PURPLE</item>
+        <item>MAROON</item>
+        <item>BLACK</item>
+        <item>GRAY</item>
+    </string-array>
+
+    <string-array name="span_array">
+        <item>WHITE</item>
+        <item>ROJO</item>
+        <item>AMARILLO</item>
+        <item>VERDE</item>
+        <item>VERDE AZULADO</item>
+        <item>CIAN</item>
+        <item>AZUL</item>
+        <item>MAGENTA</item>
+        <item>PURPURA</item>
+        <item>GRANATE</item>
+        <item>NEGRO</item>
+        <item>GRIS</item>
+    </string-array>
+</resources>

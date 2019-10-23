@@ -4,7 +4,9 @@ import android.content.Context;
 import android.content.Intent;
 import android.content.res.Resources;
 import android.graphics.Color;
+import android.provider.CalendarContract;
 import android.support.constraint.ConstraintLayout;
+import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.BaseAdapter;
@@ -16,13 +18,17 @@ import android.content.res.Resources;
 
 public class ColorAdapter extends BaseAdapter {
 
-    Context context;
-    String[] colors;
+    private Context context;
+    private String[] colors;
+    private String [] display;
+
+    private LayoutInflater inflater;
 
     //constructor
-    public ColorAdapter(Context context, String[] colors){
+    public ColorAdapter(Context context, String[] colors, String[] display){
         this.colors = colors;
         this.context = context;
+        this.display = display;
 
     }
 
@@ -38,7 +44,7 @@ public class ColorAdapter extends BaseAdapter {
 
     @Override
     public long getItemId(int position) {
-        return 0;
+        return position;
     }
 
     @Override
@@ -50,6 +56,11 @@ public class ColorAdapter extends BaseAdapter {
         } else {
             textView = (TextView) convertView;
         }
+
+//        if (position == 0) {
+//            textView.setText("WHITE");
+//
+//        }s
         //set text color
         textView.setText(colors[position]);
         //set background color
